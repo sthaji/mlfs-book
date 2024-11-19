@@ -3,7 +3,7 @@ name: air-quality-daily
 on:
   workflow_dispatch:
   schedule:
-  - cron: '57 13 * * *'
+  - cron: '59 13 * * *'
 
 jobs:
   schedule_pipelines:
